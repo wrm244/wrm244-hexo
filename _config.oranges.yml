@@ -21,13 +21,13 @@
 # 网站图标
 favicon:
   enable: true
-  icon: /images/favicon.png
-  touch_icon: /images/favicon.png
+  icon: /images/favicon.jpg
+  touch_icon: /images/favicon.jpg
 
 # 用户头像与昵称
 avatar:
-  author_photo: /images/avatar.png
-  author_nickname: 河山的范畴技术
+  author_photo: /images/avatar.jpg
+  author_nickname: 河山的技术存档
   path: /
 
 # Google 分析
@@ -264,13 +264,13 @@ cdns:
   # 评论系统
   comments:
     gitalk:
-      enable: true
+      enable: false
       url:
         css: https://cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.css
         js: https://cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.min.js
 
     valine:
-      enable: false
+      enable: true
       url: https://cdn.jsdelivr.net/npm/valine@1.4.18/dist/Valine.min.js
 
     waline:
@@ -278,4 +278,4 @@ cdns:
       url: https://cdn.jsdelivr.net/npm/@waline/client@2.5.1/dist/legacy.min.js
 
 # 主题色
-themeColor: '#808080'
+themeColor: '	#8B008B'
