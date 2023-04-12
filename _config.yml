@@ -48,13 +48,13 @@ future: true
 highlight:
   enable: true
   line_number: true
-  auto_detect: false
+  auto_detect: true
   tab_replace: ''
   wrap: true
   hljs: false
 prismjs:
   enable: false
-  preprocess: true
+  preprocess: false
   line_number: true
   tab_replace: ''
 
@@ -104,7 +104,10 @@ theme: cactus
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
-  type: git
+- type: git
   repo: git@github.com:Wrm244/wrm244.github.io.git
   branch: main
+- type: git
+  repo: git@gitee.com:wrm244/wrm244.git
+  branch: master
   #token: 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

@@ -5,7 +5,7 @@
 # Link to a page that gives an overview of all your projects.
 # This can be an external link (e.g., to you GitHub profile) or to another
 # page within your website.
-projects_url: http://github.com/probberechts
+projects_url: http://github.com/Wrm244
 
 # Set the page direction to RTL or LTR. default is LTR. (if you set it 'rtl', the 'vazir' font will be loaded.)
 direction: ltr
@@ -71,8 +71,8 @@ copyright:
 #   - enabled: whether to enable the 404 page (404.html).
 error_404:
   enabled: true
-  title: "404 Page Not Found"
-  description: "The page you are looking for might have been removed, had its name changed, or is temporarily unavailable."
+  title: "404 页面未找到"
+  description: "您正在搜索的页面可能已经删除、更名或暂时不可用。"
 
 
 ##############################################################################
