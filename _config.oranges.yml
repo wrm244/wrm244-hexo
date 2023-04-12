@@ -227,7 +227,7 @@ postShare:
 codeBlock:
   # 代码块风格，默认normal
   # 可选：默认风格'normal'；mac黑色风格：'mac-black'
-  style: 'normal'
+  style: 'mac-black'
   # 代码复制
   copy:
     enable: true
