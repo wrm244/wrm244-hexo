@@ -84,13 +84,13 @@ navbar:
     path: /
     key: home
   -
-    name: 归档
+    name: 时间线
     enable: true
     path: /archives/
     key: archives
   -
-    name: Categories
-    enable: false
+    name: 归纳
+    enable: true
     path: /categories/
     key: categories
   -
