@@ -15,7 +15,8 @@ timezone: ''
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
 url: https://wrm244.github.io
 root: /
-permalink: :year/:month/:day/:title/
+#permalink: :year/:month/:day/:title/
+permalink: p/:abbrlink.html
 permalink_defaults:
 pretty_urls:
   trailing_index: true # Set to false to remove trailing 'index.html' from permalinks
@@ -81,6 +82,41 @@ search:
 marked:
   prependRoot: true
   postAsset: true
+post_wordcount:
+  date: false # 发布日期
+  update: false # 更新日期
+  wordCount: true # 文章字数统计
+  totalCount: true # 站点总文章字数
+  min2read: true # 文章阅读时长
+  readCount: false # 文章阅读次数
+abbrlink:
+  alg: crc32   #算法： crc16(default) and crc32
+  rep: hex     #进制： dec(default) and hex
+sitemap:
+  path: sitemap.xml
+baidu_url_submit:
+  count: 40               # 提交最新的多少个链接
+  host: wrm244.github.io    # 在百度站长平台中添加的域名
+  token: iibSySE3E41dhqp0      # 秘钥
+  path: baidu_urls.txt   # 文本文档的地址， 新链接会保存在此文本文档里
+
+# 开启压缩
+neat_enable: true
+neat_html:
+  enable: true
+  exclude:
+neat_css:
+  enable: true
+  exclude:
+    - '**/*.min.css'
+neat_js:
+  enable: true
+  mangle: true
+  output:
+  compress:
+  exclude:
+    - '**/*.min.js'
+    - '**/index.js'
 # Home page setting
 # path: Root path for your blogs index page. (default = '')
 # per_page: Posts displayed per page. (0 = disable pagination)
@@ -140,3 +176,4 @@ deploy:
   repo: git@gitee.com:wrm244/wrm244.git
   branch: master
   #token: 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
+- type: baidu_url_submitter
