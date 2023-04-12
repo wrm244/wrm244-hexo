@@ -8,8 +8,23 @@ abbrlink: 5f849c82
 date: 2023-04-12 16:09:48
 ---
 
+::: tips
+如今```Overleaf```已推出国内域名[访问](https://cn.overleaf.com/)，速度较之前有很大的提升。但考虑到有些同学为了私密与方便性，因此有了自己搭建开源Overleaf服务的打算。请注意[开源项目Overleaf](https://github.com/overleaf/overleaf)不支持开放注册（需管理员账号来申请注册[issue#461](https://github.com/overleaf/overleaf/issues/461)）与跟踪评论功能。该项目支持Docker容器化部署，安装过程比较容易。本文记录了在实验室内网环境下利用官方提供的Overleaf Toolkit的docker-compose搭建Overleaf服务的过程，==同时采用了基于官方开源搭建的镜像，包含了中文字体与全套texlive软件系统==。`该文章最后更新为2023年1月5日，请注意技术文章的时效性。`
+:::
 
-> 如今```Overleaf```已推出国内域名[访问](https://cn.overleaf.com/)，速度较之前有很大的提升。但考虑到有些同学为了私密与方便性，因此有了自己搭建开源Overleaf服务的打算。请注意[开源项目Overleaf](https://github.com/overleaf/overleaf)不支持开放注册（需管理员账号来申请注册[issue#461](https://github.com/overleaf/overleaf/issues/461)）与跟踪评论功能。该项目支持Docker容器化部署，安装过程比较容易。本文记录了在实验室内网环境下利用官方提供的Overleaf Toolkit的docker-compose搭建Overleaf服务的过程，==同时采用了基于官方开源搭建的镜像，包含了中文字体与全套texlive软件系统==。`该文章最后更新为2023年1月5日，请注意技术文章的时效性。`
+```flow  
+st=>start: 开始语句
+in=>inputoutput: 输入值
+e=>end: 结束语句
+op=>operation: 执行操作
+cond=>condition: 是否成立？
+out=>inputoutput: 输出值
+
+st->in->op->cond
+cond(yes)->out
+cond(no)->op
+out->e
+```
 
 
 

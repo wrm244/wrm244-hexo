@@ -278,4 +278,4 @@ cdns:
       url: https://cdn.jsdelivr.net/npm/@waline/client@2.5.1/dist/legacy.min.js
 
 # 主题色
-themeColor: '	#8B008B'
+themeColor: '#cd57cd'
