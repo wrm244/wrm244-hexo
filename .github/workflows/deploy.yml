@@ -14,20 +14,6 @@ jobs:
       with:
         submodules: true # Checkout private submodules(themes or something else).
     
-    #我认为没必要缓存
-    # Caching dependencies to speed up workflows. (GitHub will remove any cache entries that have not been accessed in over 7 days.)
-    # - name: Cache node modules
-    #   uses: actions/cache@v1
-    #   id: cache
-    #   with:
-    #     path: node_modules
-    #     key: ${{ runner.os }}-node-${{ hashFiles('**/package-lock.json') }}
-    #     restore-keys: |
-    #       ${{ runner.os }}-node-
-    - name: Install Dependencies
-      # if: steps.cache.outputs.cache-hit != 'true'
-      run: npm ci
-    
     # Deploy hexo blog website.
     - name: Deploy
       id: deploy
