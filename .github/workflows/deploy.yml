@@ -20,9 +20,7 @@ jobs:
         uses: actions/checkout@main
  # 这里用的是 Node.js 13.x，14.x 生成 Hexo 静态页面会有问题
       - name: Set up Node.js
-        uses: actions/setup-node@v1
-        with:
-          node-version: '16.x'
+        using: 'node16'
 
       # 安装依赖
       - name: Install Dependencies
