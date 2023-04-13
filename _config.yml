@@ -31,9 +31,11 @@ archive_dir: archives
 category_dir: categories
 code_dir: downloads/code
 i18n_dir: :lang
+
 skip_render:
 - readme.md
 - LICENSE
+
 # Writing
 new_post_name: :title.md # File name of new posts
 default_layout: post
@@ -157,7 +159,7 @@ pagination_dir: page
 
 # Include / Exclude file(s)
 ## include:/exclude: options only apply to the 'source/' folder
-include:
+include: 
 exclude:
 ignore:
 
