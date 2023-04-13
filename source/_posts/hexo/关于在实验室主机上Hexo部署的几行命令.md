@@ -11,3 +11,4 @@ hexo clean
 hexo generate
 hexo deploy
 ```
+手机测试

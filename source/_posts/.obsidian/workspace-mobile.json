@@ -1,0 +1,138 @@
+{
+  "main": {
+    "id": "16d6c6d2a2a76ae4",
+    "type": "split",
+    "children": [
+      {
+        "id": "889b17797d1f87ba",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "e86a4310dfd01428",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "hexo/hexo利用github action进行部署.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "10d86a1a94e660a3",
+    "type": "mobile-drawer",
+    "children": [
+      {
+        "id": "f55d91cea3a028b5",
+        "type": "leaf",
+        "state": {
+          "type": "file-explorer",
+          "state": {
+            "sortOrder": "alphabetical"
+          }
+        }
+      },
+      {
+        "id": "f3d0a724efc0c4f4",
+        "type": "leaf",
+        "state": {
+          "type": "search",
+          "state": {
+            "query": "",
+            "matchingCase": false,
+            "explainSearch": false,
+            "collapseAll": false,
+            "extraContext": false,
+            "sortOrder": "alphabetical"
+          }
+        }
+      },
+      {
+        "id": "900525e7905a4dfd",
+        "type": "leaf",
+        "state": {
+          "type": "tag",
+          "state": {
+            "sortOrder": "frequency",
+            "useHierarchy": true
+          }
+        }
+      },
+      {
+        "id": "afc83752eede1843",
+        "type": "leaf",
+        "state": {
+          "type": "starred",
+          "state": {}
+        }
+      }
+    ],
+    "currentTab": 0
+  },
+  "right": {
+    "id": "bd97f692bf99b157",
+    "type": "mobile-drawer",
+    "children": [
+      {
+        "id": "47e6ee35e0a153b3",
+        "type": "leaf",
+        "state": {
+          "type": "backlink",
+          "state": {
+            "file": "hexo/hexo利用github action进行部署.md",
+            "collapseAll": false,
+            "extraContext": false,
+            "sortOrder": "alphabetical",
+            "showSearch": false,
+            "searchQuery": "",
+            "backlinkCollapsed": false,
+            "unlinkedCollapsed": true
+          }
+        }
+      },
+      {
+        "id": "f8e4751ad3079fd6",
+        "type": "leaf",
+        "state": {
+          "type": "outgoing-link",
+          "state": {
+            "file": "hexo/hexo利用github action进行部署.md",
+            "linksCollapsed": false,
+            "unlinkedCollapsed": true
+          }
+        }
+      },
+      {
+        "id": "09c71786b5e34aa1",
+        "type": "leaf",
+        "state": {
+          "type": "outline",
+          "state": {
+            "file": "hexo/hexo利用github action进行部署.md"
+          }
+        }
+      }
+    ],
+    "currentTab": 0
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "e86a4310dfd01428",
+  "lastOpenFiles": [
+    "hexo/关于在实验室主机上Hexo部署的几行命令.md"
+  ]
+}
