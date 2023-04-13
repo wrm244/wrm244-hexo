@@ -29,14 +29,42 @@ jobs:
           key: ${{ runner.OS }}-npm-cache
           restore-keys: |
             ${{ runner.OS }}-npm-cache
+            
+      - name: Install Hexo
+        run: npm i hexo-cli -g
+
       - name: Install Dependencies
         run: npm install
 
-      - name: Build
-        run: npm run build
+      - name: clean
+        run: hexo clean
+      
+      - name: generate
+        run: hexo g
 
+      # - name: Deploy
+      #   uses: peaceiris/actions-gh-pages@v3
+      #   with:
+      #     github_token: ${{ secrets.HEXO_DEPLOY_KEY }}
+      #     publish_dir: ./public
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.HEXO_DEPLOY_KEY }}
           publish_dir: ./public
+          publish_branch: main # default: gh-pages
+          external_repository: wrm244/wrm244.github.io # default: ${{ github.repository }}
+          cname: wrm244.github.io # optional
+
+      - name: Setup SSH
+        uses: webfactory/ssh-agent@v0.5.3
+        with:
+        ssh-private-key: ${{ secrets.HEXO_DEPLOY_KEY  }}
+
+      - name: Deploy to gitee pages
+        uses: yinxulai/gitee-pages-action@v2
+        with:
+        gitee-username: wrm244 # optional, default is ${{ github.actor }}
+        gitee-repo: wrm244/wrm244.git # required
+        branch: main # optional, default is master
+        directory: ./public # optional, default is public
