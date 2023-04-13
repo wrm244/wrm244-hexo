@@ -42,6 +42,7 @@ jobs:
         echo "${{ steps.deploy.outputs.notify }}"
   
   sync-2-gitee:
+    needs: build
     runs-on: ubuntu-latest
     steps:
       - name: Sync to Gitee
