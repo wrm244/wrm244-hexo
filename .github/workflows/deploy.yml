@@ -30,7 +30,7 @@ jobs:
     # Deploy hexo blog website.
     - name: Deploy
       id: deploy
-      uses: sma11black/hexo-action@v1.0.3
+      uses: wrm244/hexo-deploy-action@main
       with:
         deploy_key: ${{ secrets.HEXO_DEPLOY_KEY}}
         user_name: wrm244  # (or delete this input setting to use bot account)
