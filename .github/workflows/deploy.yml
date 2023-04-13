@@ -1,57 +1,20 @@
-name: Deploy
-
-on:   
-  push:
-    branches:
-      - main # default branch
+name: Hexo Deploy
+on: [push]
 jobs:
-  build:
-    runs-on: ubuntu-latest
-    name: A job to deploy blog.
-    steps:
-    - name: Checkout
-      uses: actions/checkout@v1
-      with:
-        submodules: true # Checkout private submodules(themes or something else).
-    
-    # Caching dependencies to speed up workflows. (GitHub will remove any cache entries that have not been accessed in over 7 days.)
-    - name: Cache node modules
-      uses: actions/cache@v1
-      id: cache
-      with:
-        path: node_modules
-        key: ${{ runner.os }}-node-${{ hashFiles('**/package-lock.json') }}
-        restore-keys: |
-          ${{ runner.os }}-node-
-    - name: Install Dependencies
-      if: steps.cache.outputs.cache-hit != 'true'
-      run: npm ci
-    
-    # Deploy hexo blog website.
-    - name: Deploy
-      id: deploy
-      uses: sma11black/hexo-action@v1.0.3
-      with:
-        deploy_key: ${{ secrets.HEXO_DEPLOY_KEY}}
-        user_name: wrm244  # (or delete this input setting to use bot account)
-        user_email: wrm244@outlook.com  # (or delete this input setting to use bot account)
-        commit_msg: ${{ github.event.head_commit.message }}  # (or delete this input setting to use hexo default settings)
-    # Use the output from the `deploy` step(use for test action)
-    - name: Get the output
-      run: |
-        echo "${{ steps.deploy.outputs.notify }}"
-  
-  sync-2-gitee:
-    needs: build
+  build-and-deploy:
     runs-on: ubuntu-latest
     steps:
-      - name: Sync to Gitee
-        uses: wearerequired/git-mirror-action@master
-        env:
-          # 注意在 Settings->Secrets 配置 GITEE_RSA_PRIVATE_KEY
-          SSH_PRIVATE_KEY: ${{ secrets.GITEE_PRIVATE_KEY }}
+      - name: Checkout
+        uses: actions/checkout@master
+      - name: Setup Node
+        uses: actions/setup-node@v1
         with:
-          # 注意替换为你的 GitHub 源仓库地址
-          source-repo: git@github.com:wrm244/wrm244.github.io.git
-          # 注意替换为你的 Gitee 目标仓库地址
-          destination-repo: git@gitee.com:wrm244/wrm244.git
+          node-version: 18.5.0
+      - name: Build and Deploy
+        uses: renzhaosy/hexo-deploy-action@master
+        env:
+          PERSONAL_TOKEN: $ { { secrets.GITHUB_TOKEN }}
+          DEPLOY_KEY: $ { { secrets.HEXO_DEPLOY_KEY }}
+          PUBLISH_REPOSITORY: wrm244/wrm244.github.io
+          BRANCH: main
+          PUBLISH_DIR: ./public
