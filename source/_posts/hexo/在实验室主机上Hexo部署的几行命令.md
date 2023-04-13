@@ -3,6 +3,9 @@ title: 关于在此文章部署的几行命令
 categories:
   - hexo
 date: 2023-04-12 14:09:58
+tags:
+- linux-prompt
+- hexo
 ---
 ```bash
 #在实验室主机上的PATH环境
@@ -11,4 +14,3 @@ hexo clean
 hexo generate
 hexo deploy
 ```
-手机测试
