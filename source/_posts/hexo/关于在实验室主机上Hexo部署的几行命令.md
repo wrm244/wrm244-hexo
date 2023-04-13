@@ -1,6 +1,8 @@
 ---
 title: 关于在此文章部署的几行命令
 abbrlink: 59de1f44
+categories:
+  - hexo
 date: 2023-04-12 14:09:58
 ---
 ```bash

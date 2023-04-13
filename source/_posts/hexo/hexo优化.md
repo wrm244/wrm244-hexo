@@ -1,7 +1,7 @@
 ---
 title: hexo优化
 categories:
-  - web
+  - hexo
 abbrlink: 3460d887
 date: 2023-04-13 01:38:29
 tags:
