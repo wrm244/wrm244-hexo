@@ -30,9 +30,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "dd91657771f8484a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "web/test.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -98,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "hexo/hexo利用github action进行部署.md",
+                "file": "web/test.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "hexo/hexo利用github action进行部署.md",
+                "file": "web/test.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "hexo/hexo利用github action进行部署.md"
+                "file": "web/test.md"
               }
             }
           }
@@ -159,9 +171,10 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "0f69f41a33432c98",
+  "active": "dd91657771f8484a",
   "lastOpenFiles": [
     "hexo/hexo优化.md",
+    "web/test.md",
     "hexo/hexo利用github action进行部署.md",
     "hexo/Obsidian与hexo结合部署到github pages上.md",
     "hexo/关于在实验室主机上Hexo部署的几行命令.md"
