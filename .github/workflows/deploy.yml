@@ -29,7 +29,7 @@ jobs:
           key: ${{ runner.OS }}-npm-cache
           restore-keys: |
             ${{ runner.OS }}-npm-cache
-            
+
       - name: Install Hexo
         run: npm i hexo-cli -g
 
@@ -56,15 +56,13 @@ jobs:
           external_repository: wrm244/wrm244.github.io # default: ${{ github.repository }}
           cname: wrm244.github.io # optional
 
-      - name: Setup SSH
-        uses: webfactory/ssh-agent@v0.5.3
-        with:
-        ssh-private-key: ${{ secrets.HEXO_DEPLOY_KEY  }}
-
-      - name: Deploy to gitee pages
-        uses: yinxulai/gitee-pages-action@v2
-        with:
-        gitee-username: wrm244 # optional, default is ${{ github.actor }}
-        gitee-repo: wrm244/wrm244.git # required
-        branch: main # optional, default is master
-        directory: ./public # optional, default is public
+    - name: Sync to Gitee
+      uses: wearerequired/git-mirror-action@master
+      env:
+          # 注意在 Settings->Secrets 配置 GITEE_RSA_PRIVATE_KEY
+          SSH_PRIVATE_KEY: ${{secrets.HEXO_DEPLOY_KEY }}
+      with:
+          # 注意替换为你的 GitHub 源仓库地址
+          source-repo: "git@github.com:wrm244/wrm244.github.io.git"
+          # 注意替换为你的 Gitee 目标仓库地址
+          destination-repo: "git@gitee.com:wrm244/wrm244.git"
