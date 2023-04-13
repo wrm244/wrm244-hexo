@@ -173,7 +173,7 @@ theme: oranges
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
 - type: git
-  repo: https://oauth2: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@github.com/wrm244/wrm244.github.io.git
+  repo: https://oauth2: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@github.com/wrm244.github.io.git
   branch: main
   name: wrm244
   email: wrm244@outlook.com
