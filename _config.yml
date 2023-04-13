@@ -173,10 +173,10 @@ deploy:
 - type: git
   repo: git@github.com:wrm244/wrm244.github.io.git
   branch: main
-# - type: git
-#   repo: git@gitee.com:wrm244/wrm244.git
-#   branch: master
-#   #token: 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
+- type: git
+  repo: git@gitee.com:wrm244/wrm244.git
+  branch: master
+  #token: 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
 - type: baidu_url_submitter
 
 markdown:
