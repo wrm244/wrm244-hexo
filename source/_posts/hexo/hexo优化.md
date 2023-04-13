@@ -1,6 +1,7 @@
 ---
 title: hexo优化
-abbrlink: 3460d887
+categories:
+  - hexo
 date: 2023-04-13 01:38:29
 tags:
 ---
