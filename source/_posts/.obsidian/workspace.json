@@ -54,9 +54,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "2552fc9af8b90dba",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "web/Docker部署Overleaf包含中文字体与全套texlive镜像.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -122,7 +134,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "后端/为什么是Nginx.md",
+                "file": "web/Docker部署Overleaf包含中文字体与全套texlive镜像.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,7 +151,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "后端/为什么是Nginx.md",
+                "file": "web/Docker部署Overleaf包含中文字体与全套texlive镜像.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -162,7 +174,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "后端/为什么是Nginx.md"
+                "file": "web/Docker部署Overleaf包含中文字体与全套texlive镜像.md"
               }
             }
           },
@@ -191,10 +203,15 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "9bbca43bcc1dd6e6",
+  "active": "2552fc9af8b90dba",
   "lastOpenFiles": [
+    "images/Pasted image 20230414213533.png",
+    "Pasted image 20230414213236.png",
+    "images",
+    "web/宝塔 Flarum 论坛的搭建与迁移.md",
     "web/Docker部署Overleaf包含中文字体与全套texlive镜像.md",
     "后端/为什么是Nginx.md",
+    "计算机网络/Http协议探究.md",
     "后端",
     "hexo/Obsidian与hexo结合部署到github pages上.md",
     "hexo/hexo利用github action进行部署.md",
@@ -204,7 +221,6 @@
     "obsidian/Learn Template.md",
     "obsidian/Bug Template.md",
     "obsidian/Article Template.md",
-    "计算机网络/Http协议探究.md",
     "计算机网络",
     "未命名.md",
     "obsidian",
