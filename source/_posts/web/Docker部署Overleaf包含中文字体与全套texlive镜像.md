@@ -7,7 +7,7 @@ date: 2023-04-12 16:09:48
 ::: tips
 如今```Overleaf```已推出国内域名[访问](https://cn.overleaf.com/)，速度较之前有很大的提升。但考虑到有些同学为了私密与方便性，因此有了自己搭建开源Overleaf服务的打算。请注意[开源项目Overleaf](https://github.com/overleaf/overleaf)不支持开放注册（需管理员账号来申请注册[issue#461](https://github.com/overleaf/overleaf/issues/461)）与跟踪评论功能。该项目支持Docker容器化部署，安装过程比较容易。本文记录了在实验室内网环境下利用官方提供的Overleaf Toolkit的docker-compose搭建Overleaf服务的过程，==同时采用了基于官方开源搭建的镜像，包含了中文字体与全套texlive软件系统==。`该文章最后更新为2023年1月5日，注意技术文章的时效性。`
 :::
-![](images/Pasted%20image%2020230414213533.png)
+![Pasted image 20230414213533.png](https://raw.githubusercontent.com/wrm244/image/main/2023/202304142249293.png)
 # 准备工作
 Overleaf 依赖于以下程序：
  - docker 
@@ -136,9 +136,11 @@ bin/up
 然后单击链接以转到登录页面（http://localhost:服务端口/login）。 登录后，你将被带到欢迎页面。
 
 单击页面底部的绿色按钮以开始使用 Overleaf。
+![主页](https://raw.githubusercontent.com/wrm244/image/main/2023/202304142251180.png)
 
 > 注意：在Overleaf实现中文输出需采用`XeLaTex`编译，在页面右上角可进行设置
 
+![image.png](https://raw.githubusercontent.com/wrm244/image/main/2023/202304142253664.png)
 
 # 反向代理域名服务
 

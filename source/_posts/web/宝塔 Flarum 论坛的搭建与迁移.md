@@ -6,7 +6,8 @@ tags: [Flarum]
 :::tips
 本文的重点主要记录在宝塔搭建的Flarum论坛的迁移，搭建过程简略带过。论坛的搭建的详细过程可以参考《[基于宝塔快速搭建 Flarum 轻量级论坛网站，附图文安装教程](https://zhuanlan.zhihu.com/p/499677300)》这篇文章
 :::
-<!-- more -->
+![image.png](https://raw.githubusercontent.com/wrm244/image/main/2023/202304142254997.png)
+
 什么是 `Flarum`？`Flarum` 是一款基于 `PHP Laravel` 框架开发的论坛网站，拥有轻量、美观、响应式、易上手等特点。
 # 部署
 ## 服务器环境
