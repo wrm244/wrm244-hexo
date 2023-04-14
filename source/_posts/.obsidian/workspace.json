@@ -11,8 +11,12 @@
             "id": "16ee9d8b9bd2dbff",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "计算机网络/Http协议探究.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -81,6 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "计算机网络/Http协议探究.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "计算机网络/Http协议探究.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +124,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "计算机网络/Http协议探究.md"
+              }
             }
           },
           {
@@ -148,6 +156,8 @@
   },
   "active": "16ee9d8b9bd2dbff",
   "lastOpenFiles": [
+    "计算机网络/Http协议探究.md",
+    "计算机网络",
     "obsidian/Bug Template.md",
     "obsidian/Post Template.md",
     "未命名.md",
