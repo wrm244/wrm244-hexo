@@ -158,7 +158,7 @@ footer:
     -
       name: wechat
       icon: wechat
-      path: #
+      path: /about
     # -
     #   name: weibo
     #   icon: weibo
@@ -179,7 +179,7 @@ footer:
       path: https://github.com/Wrm244
     -
       name: Theme by Oranges | Powered by Hexo
-      path: https://github.com/zchengsite/hexo-theme-oranges
+      path: https://github.com/hexojs/hexo
 
   # 浏览量统计
   # http://busuanzi.ibruce.info/
