@@ -1,10 +1,7 @@
 ---
 title: hexo插件推荐
-categories:
-  - hexo
 date: 2023-04-13 01:38:29
-tags:
-- hexo
+tags: [hexo]
 ---
 :::tips
 Hexo的插件真是个好东西！挑了些比较有用的插件，拿出来做个总结，同时也是为了方便以后使用做的一个简单记录。
