@@ -4,19 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "442544bbb5214627",
+        "id": "d2446a5d0a100a43",
         "type": "tabs",
         "children": [
           {
-            "id": "aac09e5f5df0ebe9",
+            "id": "16ee9d8b9bd2dbff",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "hexo/Obsidian与hexo结合部署到github pages上.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -65,8 +61,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -86,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "hexo/Obsidian与hexo结合部署到github pages上.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +97,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "hexo/Obsidian与hexo结合部署到github pages上.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,9 +118,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "hexo/Obsidian与hexo结合部署到github pages上.md"
-              }
+              "state": {}
             }
           },
           {
@@ -155,13 +146,19 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "aac09e5f5df0ebe9",
+  "active": "16ee9d8b9bd2dbff",
   "lastOpenFiles": [
-    "hexo/hexo利用github action进行部署.md",
+    "obsidian/Bug Template.md",
+    "obsidian/Post Template.md",
+    "未命名.md",
     "web/Docker部署Overleaf包含中文字体与全套texlive镜像.md",
+    "hexo/Obsidian与hexo结合部署到github pages上.md",
+    "obsidian",
+    "_obsidian",
+    "新建文件夹",
+    "hexo/hexo利用github action进行部署.md",
     "web/test.md",
     "hexo/关于在实验室主机上Hexo部署的几行命令.md",
-    "hexo/hexo优化.md",
-    "hexo/Obsidian与hexo结合部署到github pages上.md"
+    "hexo/hexo优化.md"
   ]
 }
