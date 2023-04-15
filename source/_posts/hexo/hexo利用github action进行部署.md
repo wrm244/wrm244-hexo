@@ -72,3 +72,7 @@ jobs:
           # 注意替换为你的 Gitee 目标仓库地址
           destination-repo: git@gitee.com:wrm244/wrm244.git
 ```
+:::tips
+obsidian双向链表内容：
+[Obsidian与hexo结合部署到github pages上](Obsidian与hexo结合部署到github%20pages上.md)
+:::

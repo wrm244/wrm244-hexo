@@ -4,71 +4,18 @@
     "type": "split",
     "children": [
       {
-        "id": "d2446a5d0a100a43",
+        "id": "5a16e99d0cda5fa6",
         "type": "tabs",
         "children": [
           {
-            "id": "16ee9d8b9bd2dbff",
+            "id": "c99caba1cbf28657",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "obsidian/Post Template.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "f4eed83ddd1f0bf9",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "obsidian/Bug Template.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "d8e6f9646375e612",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "web/Docker部署Overleaf包含中文字体与全套texlive镜像.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "9bbca43bcc1dd6e6",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "后端/为什么是Nginx.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "2552fc9af8b90dba",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "web/宝塔 Flarum 论坛的搭建与迁移.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
-        ],
-        "currentTab": 4
+        ]
       }
     ],
     "direction": "vertical"
@@ -134,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "web/宝塔 Flarum 论坛的搭建与迁移.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -151,9 +97,8 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "web/宝塔 Flarum 论坛的搭建与迁移.md",
                 "linksCollapsed": false,
-                "unlinkedCollapsed": true
+                "unlinkedCollapsed": false
               }
             }
           },
@@ -173,9 +118,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "web/宝塔 Flarum 论坛的搭建与迁移.md"
-              }
+              "state": {}
             }
           },
           {
@@ -187,7 +130,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -203,25 +146,29 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "2552fc9af8b90dba",
+  "active": "f86279dc95dd3959",
   "lastOpenFiles": [
-    "bug修正.md",
-    "web/宝塔 Flarum 论坛的搭建与迁移.md",
+    "obsidian/Post Template.md",
+    "obsidian/Bug Template.md",
+    "obsidian/Obsidian-URL Template.md",
+    "obsidian/Article Template.md",
+    "hexo/hexo插件推荐.md",
+    "hexo/hexo利用github action进行部署.md",
+    "hexo/Obsidian与hexo结合部署到github pages上.md",
     "web/Docker部署Overleaf包含中文字体与全套texlive镜像.md",
+    "BUG记录/BUG记录模板.md",
     "后端/为什么是Nginx.md",
+    "未命名.canvas",
+    "web/宝塔 Flarum 论坛的搭建与迁移.md",
+    "BUG记录",
+    "bug修正.md",
     "images/Pasted image 20230414213533.png",
     "Pasted image 20230414213236.png",
     "images",
     "计算机网络/Http协议探究.md",
     "后端",
-    "hexo/Obsidian与hexo结合部署到github pages上.md",
-    "hexo/hexo利用github action进行部署.md",
-    "hexo/hexo插件推荐.md",
     "hexo/在实验室主机上Hexo部署的几行命令.md",
-    "obsidian/Post Template.md",
     "obsidian/Learn Template.md",
-    "obsidian/Bug Template.md",
-    "obsidian/Article Template.md",
     "计算机网络",
     "obsidian",
     "_obsidian",
