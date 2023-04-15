@@ -13,8 +13,9 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "hexo/hexo插件推荐.md",
-                "mode": "source",
+                "file": "hexo/hexo利用github action进行部署.md",
+                "mode": "preview",
+                "backlinks": true,
                 "source": false
               }
             }
@@ -85,7 +86,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "hexo/hexo插件推荐.md",
+            "file": "hexo/hexo利用github action进行部署.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -102,7 +103,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "hexo/hexo插件推荐.md",
+            "file": "hexo/hexo利用github action进行部署.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -114,7 +115,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "hexo/hexo插件推荐.md"
+            "file": "hexo/hexo利用github action进行部署.md"
           }
         }
       }
@@ -131,12 +132,12 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "f55d91cea3a028b5",
+  "active": "e86a4310dfd01428",
   "lastOpenFiles": [
+    "hexo/Obsidian与hexo结合部署到github pages上.md",
     "hexo/hexo利用github action进行部署.md",
     "hexo/hexo插件推荐.md",
     "web/Docker部署Overleaf包含中文字体与全套texlive镜像.md",
-    "hexo/Obsidian与hexo结合部署到github pages上.md",
     "web/test.md",
     "hexo/在实验室主机上Hexo部署的几行命令.md"
   ]
