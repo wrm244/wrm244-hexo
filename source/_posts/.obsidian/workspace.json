@@ -66,9 +66,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "ccd1b496acf90388",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "bug修正.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 4
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -134,7 +146,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "web/宝塔 Flarum 论坛的搭建与迁移.md",
+                "file": "bug修正.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -151,7 +163,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "web/宝塔 Flarum 论坛的搭建与迁移.md",
+                "file": "bug修正.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -174,7 +186,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "web/宝塔 Flarum 论坛的搭建与迁移.md"
+                "file": "bug修正.md"
               }
             }
           },
@@ -203,14 +215,15 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "2552fc9af8b90dba",
+  "active": "ccd1b496acf90388",
   "lastOpenFiles": [
+    "web/宝塔 Flarum 论坛的搭建与迁移.md",
+    "bug修正.md",
     "web/Docker部署Overleaf包含中文字体与全套texlive镜像.md",
     "后端/为什么是Nginx.md",
     "images/Pasted image 20230414213533.png",
     "Pasted image 20230414213236.png",
     "images",
-    "web/宝塔 Flarum 论坛的搭建与迁移.md",
     "计算机网络/Http协议探究.md",
     "后端",
     "hexo/Obsidian与hexo结合部署到github pages上.md",
@@ -222,7 +235,6 @@
     "obsidian/Bug Template.md",
     "obsidian/Article Template.md",
     "计算机网络",
-    "未命名.md",
     "obsidian",
     "_obsidian",
     "新建文件夹",
