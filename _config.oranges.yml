@@ -96,12 +96,12 @@ navbar:
     name: 标签
     enable: true
     path: /tags/
-    key: tags
+    key: tags 
   -
-    name: 友情链
+    name: slides
     enable: true
-    path: /friends/
-    key: friends
+    path: /slide/
+    key: about
   -
     name: 关于&简历
     enable: true
