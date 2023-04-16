@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "hexo/hexo利用github action进行部署.md",
-                "mode": "preview",
+                "file": "slides/index.md",
+                "mode": "source",
                 "backlinks": true,
                 "source": false
               }
@@ -86,7 +86,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "hexo/hexo利用github action进行部署.md",
+            "file": "slides/index.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "hexo/hexo利用github action进行部署.md",
+            "file": "slides/index.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -115,7 +115,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "hexo/hexo利用github action进行部署.md"
+            "file": "slides/index.md"
           }
         }
       }
@@ -134,8 +134,12 @@
   },
   "active": "e86a4310dfd01428",
   "lastOpenFiles": [
-    "hexo/Obsidian与hexo结合部署到github pages上.md",
+    "slides/argument.md",
+    "slides/index.md",
+    "slides/Template.md",
+    "slides/102班晚点名ppt(23-4-16).md",
     "hexo/hexo利用github action进行部署.md",
+    "hexo/Obsidian与hexo结合部署到github pages上.md",
     "hexo/hexo插件推荐.md",
     "web/Docker部署Overleaf包含中文字体与全套texlive镜像.md",
     "web/test.md",
