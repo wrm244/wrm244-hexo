@@ -5,5 +5,5 @@ type: "about"
 categories:
 tags:
 ---
-|slides|times|
-| ------ | ------ |
+| slides | notes | times |
+| ------ | ------ | ------ |
