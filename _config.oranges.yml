@@ -83,27 +83,27 @@ navbar:
     path: /
     key: home
   -
-    name: archives
+    name: Times
     enable: true
     path: /archives/
     key: archives
   -
-    name: categories
+    name: Dirs
     enable: true
     path: /categories/
     key: categories
   -
-    name: tags
+    name: Tags
     enable: true
     path: /tags/
     key: tags
   -
-    name: slides
+    name: Slides
     enable: true
     path: /slide/
     key: about
   -
-    name: about&CV
+    name: About
     enable: true
     path: /about/
     key: about
