@@ -78,32 +78,32 @@ comments:
 # 主题页面导航栏
 navbar:
   -
-    name: 主页
+    name: Home
     enable: true
     path: /
     key: home
   -
-    name: 时间线
+    name: archives
     enable: true
     path: /archives/
     key: archives
   -
-    name: 归纳
+    name: categories
     enable: true
     path: /categories/
     key: categories
   -
-    name: 标签
+    name: tags
     enable: true
     path: /tags/
-    key: tags 
+    key: tags
   -
     name: slides
     enable: true
     path: /slide/
     key: about
   -
-    name: 关于&简历
+    name: about&CV
     enable: true
     path: /about/
     key: about
