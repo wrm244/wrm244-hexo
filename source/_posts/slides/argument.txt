@@ -2,5 +2,5 @@ index.md -V theme=white
 # 这是一个示例
 Template.md -V theme=simple
 #
-102班晚点名ppt(23-4-16).md -V theme=sky
+102班晚点名ppt(23-4-16).md -V theme=solarized
 # 102班晚点名ppt 2023-4-17
