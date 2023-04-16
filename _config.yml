@@ -35,8 +35,7 @@ skip_render:
 - readme.md
 - LICENSE
 - _posts/obsidian/**
-- _posts/ppt/**
-- read.html
+- _posts/slides/**
 # Writing
 new_post_name: :title.md # File name of new posts
 default_layout: post
