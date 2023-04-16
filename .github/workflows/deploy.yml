@@ -10,10 +10,14 @@ jobs:
     name: deploy hexo blog.
     steps:
     - name: Checkout
-      uses: actions/checkout@v1
+      uses: actions/checkout@v3.0.0
       with:
-        submodules: true # Checkout private submodules(themes or something else).
-
+	      submodules: 'true'
+	      persist-credentials: false
+	      fetch-depth: 0
+    - name: Restore Timestamps
+      uses: chetan/git-restore-mtime-action@v1
+    
     # Caching dependencies to speed up workflows. (GitHub will remove any cache entries that have not been accessed in over 7 days.)
     - name: Cache node modules
       uses: actions/cache@v1
