@@ -76,7 +76,7 @@ feed:
 lazyload:
   enable: true
   onlypost: false # optional
-  loadingImg: /images/lazyload.gif
+  loadingImg: /assets/images/lazyload.gif
   isSPA: false # optional
 search:
   path: search.xml
