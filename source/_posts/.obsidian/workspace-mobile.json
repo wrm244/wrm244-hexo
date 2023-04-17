@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "slides/index.md",
+                "file": "slides/argument.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -86,7 +86,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "slides/index.md",
+            "file": "slides/argument.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "slides/index.md",
+            "file": "slides/argument.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -115,7 +115,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "slides/index.md"
+            "file": "slides/argument.md"
           }
         }
       }
@@ -134,8 +134,8 @@
   },
   "active": "e86a4310dfd01428",
   "lastOpenFiles": [
-    "slides/argument.md",
     "slides/index.md",
+    "slides/argument.md",
     "slides/Template.md",
     "slides/102班晚点名ppt(23-4-16).md",
     "hexo/hexo利用github action进行部署.md",
