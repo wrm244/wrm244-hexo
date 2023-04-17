@@ -31,9 +31,10 @@
 
 - 上床
 
-```js [1-2|3|4]    
-let a = 1;    
-let b = 2;    
-let c = x => 1 + 2 + x;    
-c(3);
+```javascript [1, 4] <!-- .element: data-line-numbers="3,4-5" -->
+// Some code
+var x = 1;
+var y = 2;
+var z = x + y;
+console.log(z);
 ```
