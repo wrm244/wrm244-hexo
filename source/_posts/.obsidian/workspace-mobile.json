@@ -13,9 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "slides/argument.md",
+                "file": "slides/index.md",
                 "mode": "source",
-                "backlinks": true,
                 "source": false
               }
             }
@@ -86,7 +85,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "slides/argument.md",
+            "file": "slides/index.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -103,7 +102,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "slides/argument.md",
+            "file": "slides/index.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -115,7 +114,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "slides/argument.md"
+            "file": "slides/index.md"
           }
         }
       }
@@ -132,12 +131,12 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "e86a4310dfd01428",
+  "active": "f55d91cea3a028b5",
   "lastOpenFiles": [
+    "slides/102班晚点名ppt(23-4-16).md",
     "slides/index.md",
     "slides/argument.md",
     "slides/Template.md",
-    "slides/102班晚点名ppt(23-4-16).md",
     "hexo/hexo利用github action进行部署.md",
     "hexo/Obsidian与hexo结合部署到github pages上.md",
     "hexo/hexo插件推荐.md",
