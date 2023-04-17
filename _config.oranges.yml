@@ -242,39 +242,39 @@ mathjax:
 cdns:
   jquery:
     enable: true
-    url: https://cdn.jsdelivr.net/npm/jquery@3.3.1/dist/jquery.min.js
+    url: https://jsd.onmicrosoft.cn/npm/jquery@3.3.1/dist/jquery.min.js
 
   fancybox:
     enable: true
     url:
-      css: https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css
-      js: https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js
+      css: https://jsd.onmicrosoft.cn/npm/@fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css
+      js: https://jsd.onmicrosoft.cn/npm/@fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js
 
   # LaTeX 公式
   mathjax:
     enable: true
-    url: https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js
+    url: https://jsd.onmicrosoft.cn/npm/mathjax@3/es5/tex-chtml.js
 
   # 代码块复制
   clipboard:
     enable: true
-    url: https://cdn.jsdelivr.net/npm/clipboard@2.0.10/dist/clipboard.min.js
+    url: https://jsd.onmicrosoft.cn/npm/clipboard@2.0.10/dist/clipboard.min.js
 
   # 评论系统
   comments:
     gitalk:
       enable: false
       url:
-        css: https://cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.css
-        js: https://cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.min.js
+        css: https://jsd.onmicrosoft.cn/npm/gitalk@1/dist/gitalk.css
+        js: https://jsd.onmicrosoft.cn/npm/gitalk@1/dist/gitalk.min.js
 
     valine:
       enable: true
-      url: https://cdn.jsdelivr.net/npm/valine@1.4.18/dist/Valine.min.js
+      url: https://jsd.onmicrosoft.cn/npm/valine@1.4.18/dist/Valine.min.js
 
     waline:
       enable: false
-      url: https://cdn.jsdelivr.net/npm/@waline/client@2.5.1/dist/legacy.min.js
+      url: https://jsd.onmicrosoft.cn/npm/@waline/client@2.5.1/dist/legacy.min.js
 
 # 主题色
 themeColor: '#cd57cd'
