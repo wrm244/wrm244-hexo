@@ -1,7 +1,13 @@
 ---
 title: hexo利用github action进行部署
+tags:
+  - hexo
+cover: 'https://rmimages.gxist.cn/2023/202304171900548.png'
+banner: 'https://rmimages.gxist.cn/2023/202304171900548.png'
+categories:
+  - hexo
+abbrlink: d3447633
 date: 2023-04-14 01:38:29
-tags: [hexo]
 ---
 ## GitHub Actions
 

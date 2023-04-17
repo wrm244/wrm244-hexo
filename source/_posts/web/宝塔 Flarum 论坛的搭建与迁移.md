@@ -1,7 +1,11 @@
 ---
 title: 宝塔 Flarum 论坛的搭建与迁移
+tags:
+  - Flarum
+categories:
+  - web
+abbrlink: e1be4ac5
 date: 2023-04-14 21:30:27
-tags: [Flarum]
 ---
 :::tips
 本文的重点主要记录在宝塔搭建的Flarum论坛的迁移，搭建过程简略带过。论坛的搭建的详细过程可以参考《[基于宝塔快速搭建 Flarum 轻量级论坛网站，附图文安装教程](https://zhuanlan.zhihu.com/p/499677300)》这篇文章

@@ -1,6 +1,10 @@
 ---
 title: Docker部署Overleaf包含中文字体与全套texlive镜像
-tags: [论文]
+tags:
+  - 论文
+categories:
+  - web
+abbrlink: 5f849c82
 date: 2023-04-12 16:09:48
 ---
 

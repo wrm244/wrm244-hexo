@@ -1,7 +1,14 @@
 ---
 title: BUG记录模板
+tags:
+  - BUG
+description: BUG记录
+cover: 'https://rmimages.gxist.cn/2023/202304171823037.jpg'
+banner: 'https://rmimages.gxist.cn/2023/202304171823037.jpg'
+categories:
+  - BUG记录
+abbrlink: 72fd6ed0
 date: 2023-04-15 14:12:04
-tags: [BUG]
 ---
 # 项目场景：
 `提示：这里简述项目相关背景：`

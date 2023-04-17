@@ -1,7 +1,21 @@
 ---
 title: 为什么是Nginx
+tags:
+  - 后端
+  - nginx
+description: 这是一篇nginx初始介绍
+cover: >-
+  https://rmimages.gxist.cn/2023/202304171823619.jpg
+banner: >-
+  https://rmimages.gxist.cn/2023/202304171823619.jpg
+poster:
+  headline: 为什么是Nginx
+  caption: Nginx，高性能web代理服务器
+  color: white
+categories:
+  - 后端
+abbrlink: 948ca506
 date: 2023-04-14 21:10:23
-tags: [后端,nginx]
 ---
 
 :::tips

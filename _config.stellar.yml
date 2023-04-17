@@ -1,0 +1,120 @@
+#默认生成 Open Graph 标签
+open_graph:
+  enable: true
+  twitter_id: # for open_graph meta
+article:
+  auto_cover: false
+  auto_excerpt: 100
+  related_posts:
+    enable: true
+    title: 您可能感兴趣的文章
+
+sidebar:
+  menu:
+    post: '[btn.blog](/)'
+    wiki: '[btn.wiki](/wiki/)'
+    notes: '[笔记](/notes/)'
+    more: '[更多](/more/)'
+
+# 文章搜索
+search:
+  service: local_search # local_search, todo...
+  local_search: # 在 front-matter 中设置 indexing:false 来避免被搜索索引
+    field: all # post, page, all
+    path: /search.json # 搜索文件存放位置
+    content: true # 是否搜索内容
+    codeblock: true # 是否搜索代码块（需要content: true)
+    
+footer:
+  social:
+    rss:
+      icon: '<img src="/assets/images/social/rss.svg"/>'
+      url: /atom.xml
+    github:
+      icon: '<img src="/assets/images/social/github.svg"/>'
+      url: https://github.com/wrm244
+    music:
+      icon: '<img src="/assets/images/social/music.svg"/>'
+      url: https://music.163.com/#/user/home?id=545651997
+    about:
+      icon: '<img src="/assets/images/social/about.svg"/>'
+      url: /about/
+
+tag_plugins:
+  emoji:
+    default: https://gcore.jsdelivr.net/gh/cdn-x/emoji/qq/${name}.gif
+    twemoji: https://gcore.jsdelivr.net/gh/twitter/twemoji/assets/svg/${name}.svg
+    qq: https://gcore.jsdelivr.net/gh/cdn-x/emoji/qq/${name}.gif
+    aru: https://gcore.jsdelivr.net/gh/cdn-x/emoji/aru-l/${name}.gif
+    tieba: https://gcore.jsdelivr.net/gh/cdn-x/emoji/tieba/${name}.png
+  image:
+    fancybox: true
+  quot:
+    default: # 可以自行配置多种图标方案
+      prefix: https://bu.dusays.com/2022/10/24/63567d3e092ff.png
+      suffix: https://bu.dusays.com/2022/10/24/63567d3e0ab55.png
+    hashtag:
+      prefix: https://bu.dusays.com/2022/10/24/63567d3e07da3.png
+
+style:
+  color:
+    # 动态颜色（会根据明暗主题重设明度值，只用关心色相和饱和度即可）
+    background: 'hsl(212 16% 98%)' # 浅色背景颜色
+    block: 'hsl(212 8% 95%)' # 块背景颜色
+    code: 'hsl(14 100% 48%)' # 行内代码颜色
+    text: 'hsl(0 0% 20%)' # 文本颜色
+    # 主题色配置（不会根据明暗动态调整，请设置为通用的颜色）
+    theme: 'hsl(192 98% 55%)' # 主题色
+    accent: 'hsl(14 100% 57%)' # 强调色
+    link: 'hsl(207 90% 54%)' # 超链接颜色
+    button: 'hsl(192 98% 55%)' # 按钮颜色
+    hover: 'hsl(14 100% 57%)' # 按钮高亮颜色
+    style:
+  font-size:
+    root: 16px
+    body: .9375rem # 15px
+    code: 85% # 14px
+    codeblock: 0.8125rem # 13px
+  font-family:
+    logo: 'system-ui, "Microsoft Yahei", "Segoe UI", -apple-system, Roboto, Ubuntu, "Helvetica Neue", Arial, "WenQuanYi Micro Hei", sans-serif'
+    body: 'system-ui, "Microsoft Yahei", "Segoe UI", -apple-system, Roboto, Ubuntu, "Helvetica Neue", Arial, "WenQuanYi Micro Hei", sans-serif'
+    code: 'Menlo, Monaco, Consolas, system-ui, "Courier New", monospace, sans-serif'
+    codeblock: 'Menlo, Monaco, Consolas, system-ui, "Courier New", monospace, sans-serif'
+  text-align: justify # justify/left/center/right
+  radient: # https://webgradients.com/
+    start: 'linear-gradient(to right, #92fe9d 0%, #00c9ff 50%, #92fe9d 100%)'
+    search: 'linear-gradient(to right, #04F3FF, #08FFC6, #DDF730, #FFBD19, #FF1FE0, #C418FF, #04F3FF)'
+
+scrollreveal:
+  enable: false
+  js: https://gcore.jsdelivr.net/npm/scrollreveal@4.0.9/dist/scrollreveal.min.js
+  distance: 4px # 执行距离
+  duration: 400 # ms # 执行时长
+  interval: 100 # ms # 执行间隔（时间）
+  scale: 0.1 # 0.1~1 # 执行方式（缩放）
+
+lazyload:
+  enable: true # [hexo clean && hexo s] is required after changing this value.
+  js: https://gcore.jsdelivr.net/npm/vanilla-lazyload@17.3.1/dist/lazyload.min.js
+  transition: blur # blur, fade
+loading:
+  loading: 正在加载
+  error: 加载失败，请稍后重试。
+sitemap:
+  '博客':
+    - '[近期](/)'
+    - '[分类](/categories/)'
+    - '[标签](/tags/)'
+    - '[归档](/archives/)'
+  '项目':
+#    - '[开源库](/)'
+  '社交':
+#    - '[友链](/)'
+#    - '[留言板](/)'
+  '更多':
+#    - '[关于本站](/)'
+#    - '[GitHub](/)'
+content: | # 支持 Markdown 格式
+  本站由 [@anonymity](/) 使用 [Stellar](https://github.com/xaoxuu/hexo-theme-stellar) 主题创建。
+  本博客所有文章除特别声明外，均采用 [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/) 许可协议，转载请注明出处。
+# 主题用户越多，开发者维护和更新的积极性就越高，如果您喜欢本主题，请在适当的位置显示主题信息和仓库链接以表支持。

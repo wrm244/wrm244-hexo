@@ -3,13 +3,17 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: 河山的技术存档
+title: 河山技术存档
 subtitle: '技术与笔记存档、静态页面部署'
 description: '河山技术博客'
 keywords:
 author: 河山
-language: zh-CN
+language:
+  - zh-CN
+  - en
+  - zh-TW
 timezone: ''
+avatar: /assets/images/social/avatar.jpg
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
@@ -24,6 +28,7 @@ pretty_urls:
 
 # Directory
 source_dir: source
+wiki_dir: wiki
 public_dir: public
 tag_dir: tags
 archive_dir: archives
@@ -36,6 +41,7 @@ skip_render:
 - LICENSE
 - _posts/obsidian/**
 - _posts/slides/**
+
 # Writing
 new_post_name: :title.md # File name of new posts
 default_layout: post
@@ -61,6 +67,16 @@ prismjs:
   preprocess: false
   line_number: true
   tab_replace: ''
+inject:
+  head:
+    - <link rel="apple-touch-icon" sizes="180x180" href="/assets/images/social/avatar.png">
+    - <link rel="icon" type="image/png" sizes="32x32" href="/assets/images/social/avatar.png">
+    - <link rel="icon" type="image/png" sizes="16x16" href="/assets/images/social/avatar.png">
+    - <link rel="shortcut icon" href="/assets/images/social/avatar.ico">
+    - <meta name="msapplication-TileColor" content="#2d89ef">
+    - <meta name="theme-color" content="#ffffff">
+
+    
 feed:
   type: atom
   path: atom.xml
@@ -73,15 +89,6 @@ feed:
   icon: icon.png
   autodiscovery: true
   template:
-lazyload:
-  enable: true
-  onlypost: false # optional
-  loadingImg: /images/lazyload.gif
-  isSPA: false # optional
-search:
-  path: search.xml
-  field: post
-  content: true
 marked:
   prependRoot: true
   postAsset: true
@@ -95,8 +102,6 @@ post_wordcount:
 abbrlink:
   alg: crc32   #算法： crc16(default) and crc32
   rep: hex     #进制： dec(default) and hex
-sitemap:
-  path: sitemap.xml
 baidu_url_submit:
   count: 40               # 提交最新的多少个链接
   host: wrm244.github.io    # 在百度站长平台中添加的域名
@@ -120,6 +125,13 @@ neat_js:
   exclude:
     - '**/*.min.js'
     - '**/index.js'
+
+sitemap:
+  path: sitemap.xml
+  tag: false
+  category: false
+  page_priority: 0.4
+  post_priority: 0.6
 # Home page setting
 # path: Root path for your blogs index page. (default = '')
 # per_page: Posts displayed per page. (0 = disable pagination)
@@ -168,7 +180,7 @@ ignore:
 ## Themes: https://hexo.io/themes/
 #theme: landscape
 #theme: cactus
-theme: oranges
+theme: stellar
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
