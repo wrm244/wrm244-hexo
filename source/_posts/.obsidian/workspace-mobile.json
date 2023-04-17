@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "slides/index.md",
+                "file": "后端/为什么是Nginx.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "slides/index.md",
+            "file": "后端/为什么是Nginx.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "slides/index.md",
+            "file": "后端/为什么是Nginx.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -114,7 +114,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "slides/index.md"
+            "file": "后端/为什么是Nginx.md"
           }
         }
       }
@@ -133,8 +133,8 @@
   },
   "active": "e86a4310dfd01428",
   "lastOpenFiles": [
-    "slides/102班晚点名ppt(23-4-16).md",
     "slides/index.md",
+    "slides/102班晚点名ppt(23-4-16).md",
     "slides/argument.md",
     "slides/Template.md",
     "hexo/hexo利用github action进行部署.md",
