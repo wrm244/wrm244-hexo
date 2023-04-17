@@ -20,12 +20,12 @@
 # 网站图标
 favicon:
   enable: true
-  icon: /assets/images/avatar.jpg
-  touch_icon: /assets/images/avatar.jpg
+  icon: /assets/images/social/avatar.jpg
+  touch_icon: /assets/images/social/avatar.jpg
 
 # 用户头像与昵称
 avatar:
-  author_photo: /assets/images/avatar.jpg
+  author_photo: /assets/images/social/avatar.jpg
   author_nickname: 河山的技术存档
   path: /
 
