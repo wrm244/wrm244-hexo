@@ -4,3 +4,5 @@ Template.md -V theme=simple
 %
 102班晚点名ppt(23-4-16).md -V theme=solarized
 % 102班晚点名ppt 2023-4-17
+bug记录模板.md -V theme=sky
+%bug演示ppt模板 2023-4-18
