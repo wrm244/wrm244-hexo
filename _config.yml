@@ -36,7 +36,6 @@ skip_render:
 - LICENSE
 - _posts/obsidian/**
 - _posts/slides/**
-- google9479e8a625752479.html
 # Writing
 new_post_name: :title.md # File name of new posts
 default_layout: post
