@@ -36,6 +36,7 @@ skip_render:
 - LICENSE
 - _posts/obsidian/**
 - _posts/slides/**
+- CNAME
 # Writing
 new_post_name: :title.md # File name of new posts
 default_layout: post
