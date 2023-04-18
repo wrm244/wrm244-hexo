@@ -6,7 +6,7 @@
 title: 河山的技术存档
 subtitle: ''
 description: '河山技术博客'
-keywords:
+keywords: 博客、文章、
 author: 河山
 language: zh-CN
 timezone: ''
@@ -36,7 +36,6 @@ skip_render:
 - LICENSE
 - _posts/obsidian/**
 - _posts/slides/**
-- CNAME
 - netlify.toml
 # Writing
 new_post_name: :title.md # File name of new posts
