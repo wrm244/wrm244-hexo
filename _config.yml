@@ -37,7 +37,7 @@ skip_render:
 - _posts/obsidian/**
 - _posts/slides/**
 - CNAME
-- _redirects
+- netlify.toml
 # Writing
 new_post_name: :title.md # File name of new posts
 default_layout: post
