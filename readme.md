@@ -1,7 +1,7 @@
 ## 河山的技术指南网页源代码
 >该项目参考修改自 ```hexo``` 与```orange```主题，用于渲染生成[```wrm244.github.io```](https://wrm244.github.io)页面静态代码。这个仓库主要目的是备份，也可以进行拉取修改。
 
-[![standard-readme compliant](https://img.shields.io/badge/readme%20style-standard-brightgreen.svg?style=flat-square)](https://github.com/RichardLitt/standard-readme) ![NPM version](https://badge.fury.io/js/hexo.svg)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/d06dd6cb-ba41-4f9f-ab37-89ed3f82cab7/deploy-status)](https://app.netlify.com/sites/visionary-eclair-534940/deploys)  [![standard-readme compliant](https://img.shields.io/badge/readme%20style-standard-brightgreen.svg?style=flat-square)](https://github.com/RichardLitt/standard-readme)  ![NPM version](https://badge.fury.io/js/hexo.svg)
 ## Install
 该仓库已配置好Github Action 会渲染部署同步到github与gitee静态代码仓库，以下是Action配置文件详细内容：
 > This repository has been configured hexo with Github Action to render, deploy and sync to github and gitee static code repositories. Here are the details of the Action configuration file: 
