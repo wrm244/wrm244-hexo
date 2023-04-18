@@ -1,0 +1,4 @@
+user-agent: *
+disallow: /resume/
+sitemap: https://wrm244.gitee.io/sitemap.xml
+sitemap: https://wrm244.github.io/sitemap.xml
