@@ -81,32 +81,19 @@ navbar:
     name: Home
     enable: true
     path: /
-    key: home
-  -
-    name: Times
-    enable: true
-    path: /archives/
-    key: archives
-  -
-    name: Dirs
-    enable: true
-    path: /categories/
-    key: categories
-  -
-    name: Tags
-    enable: true
-    path: /tags/
-    key: tags
+    key: home 
   -
     name: Slides
     enable: true
     path: /slide/
     key: about
+    
   -
-    name: About
+    name: Times
     enable: true
-    path: /resume/
-    key: about
+    path: /archives/
+    key: archives
+ 
 
 # 文章目录
 catalog:
