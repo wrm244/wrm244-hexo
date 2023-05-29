@@ -563,10 +563,10 @@ hexo-baidu-url-submit@^0.0.6:
   dependencies:
     xmlhttprequest "^1.8.0"
 
-hexo-blog-encrypt@^3.1.6:
-  version "3.1.6"
-  resolved "https://registry.npmmirror.com/hexo-blog-encrypt/-/hexo-blog-encrypt-3.1.6.tgz"
-  integrity sha512-aq/KiuwoHLTMOOw0WiVtoTpPfx5x5mjkGJAJgKOp7gH0fjW4Pt1uT2n2MOVWBwY2q3qLtWq60na8RL5qmzZL1w==
+hexo-blog-encrypt@^3.1.7:
+  version "3.1.7"
+  resolved "https://registry.yarnpkg.com/hexo-blog-encrypt/-/hexo-blog-encrypt-3.1.7.tgz#9fdc254f15558de5d4ff2eab5e7c4d73b5abcc0a"
+  integrity sha512-JI05orX181wKYYXBemxEpCHsDD5HNc8Z0zmmo3sh/xS4upoMLBn3EqZjdmPqphS6b/gpoTaUEeKqQ7Ma0jry7Q==
 
 hexo-butterfly-charts@^1.1.3:
   version "1.1.3"
