@@ -548,10 +548,10 @@ hexo-abbrlink@^2.2.1:
     hexo-front-matter "^1.0.0"
     hexo-fs "^3.1.0"
 
-hexo-auto-category@^0.2.1:
-  version "0.2.1"
-  resolved "https://registry.npmmirror.com/hexo-auto-category/-/hexo-auto-category-0.2.1.tgz"
-  integrity sha512-kIHa+0XV7CZHlcFV9Jg8FJdngLqCBtubSEcXveZMr5D6wftE+Zg3kv4R+xi+nE7wAfDSRW37TUqfgFusrf92Yw==
+hexo-auto-category@^0.2.2:
+  version "0.2.2"
+  resolved "https://registry.yarnpkg.com/hexo-auto-category/-/hexo-auto-category-0.2.2.tgz#65b4f4c4d5a43fbf73d24c593d34bfc730689a8e"
+  integrity sha512-PJ4rohgVk8trHTfFTDCvU5xSoLl3vxNLQ+l+wrns6ps1eUZrR6xSJwPK9xJ9Vii2BDNdjTQ/ZFfEX8Y7dhucdw==
   dependencies:
     hexo-front-matter "^2.0.0"
     hexo-fs "^3.1.0"
