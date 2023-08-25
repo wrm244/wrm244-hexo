@@ -568,10 +568,10 @@ hexo-blog-encrypt@^3.1.9:
   resolved "https://registry.yarnpkg.com/hexo-blog-encrypt/-/hexo-blog-encrypt-3.1.9.tgz#4579bbdb35aa040181942088e539a44b17be6e59"
   integrity sha512-dzuZiW5mD8t1FOhJXqc+IgV1Tc45YtatJb/w8k4PyT9McQxsROQXsBw+zbDembzuqMnbnkCeT2SapZ/r9AgAcw==
 
-hexo-butterfly-charts@^1.1.5:
-  version "1.1.5"
-  resolved "https://registry.yarnpkg.com/hexo-butterfly-charts/-/hexo-butterfly-charts-1.1.5.tgz#84e7146b47af276251188c5981dd05329e36e7d7"
-  integrity sha512-ey+/J1cWOvoUqwFXgkvIkLZMacUXBqix4coZH/OpWH/m326bi7nasF0efJTm8QjSgG1+JfO6e4OquCOGl6AOvQ==
+hexo-butterfly-charts@^1.1.6:
+  version "1.1.6"
+  resolved "https://registry.yarnpkg.com/hexo-butterfly-charts/-/hexo-butterfly-charts-1.1.6.tgz#79e15e0b620c6577848b3132c5d90502b19ce3e4"
+  integrity sha512-rGqWbq/ZJ4JmpN8cnx51prJc+JCphu4qdECQ9aEaIh/MDZAOtV//P988bc067U6Qwcm3s72M0WGDNJBlesY58A==
   dependencies:
     cheerio "^1.0.0-rc.10"
     moment "^2.29.4"
